@@ -1,0 +1,1 @@
+{"name":"Local: D","url":"c:\\Users\\Arpit\\OneDrive\\Desktop\\CPP\\D. Matrix game.cpp","tests":[{"id":1750519851117,"input":"3\n1 1 5\n2 2 2\n90000 80000 70000\n","output":"1 1\n3 7\n299929959 603196135\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Arpit\\OneDrive\\Desktop\\CPP\\D. Matrix game.cpp","group":"local","local":true}

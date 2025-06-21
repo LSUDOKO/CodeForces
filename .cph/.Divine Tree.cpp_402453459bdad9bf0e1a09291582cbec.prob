@@ -1,0 +1,1 @@
+{"name":"Local: Divine Tree","url":"c:\\Users\\Arpit\\OneDrive\\Desktop\\CPP\\Divine Tree.cpp","tests":[{"id":1750519007735,"input":"2\n1 2\n4 6\n","output":"-1\n3\n3 1\n1 2\n2 4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Arpit\\OneDrive\\Desktop\\CPP\\Divine Tree.cpp","group":"local","local":true}
