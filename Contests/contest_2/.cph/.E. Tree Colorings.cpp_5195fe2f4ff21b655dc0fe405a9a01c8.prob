@@ -1,0 +1,1 @@
+{"name":"Local: E","url":"c:\\Users\\Arpit\\OneDrive\\Desktop\\CPP\\Contests\\contest_2\\E. Tree Colorings.cpp","tests":[{"id":1750692877062,"input":"5\n1\n3\n5\n7\n9\n","output":"1\n2\n3\n4\n3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Arpit\\OneDrive\\Desktop\\CPP\\Contests\\contest_2\\E. Tree Colorings.cpp","group":"local","local":true}

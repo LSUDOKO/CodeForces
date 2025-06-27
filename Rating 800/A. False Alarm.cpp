@@ -22,7 +22,7 @@ bool canPassAllDoors(int n, int x, vector<int>& a) {
 int main() {
     int t;
     cin >> t;
-    while (t--) {
+    while (t--) {   
         int n, x;
         cin >> n >> x;
         vector<int> a(n);
