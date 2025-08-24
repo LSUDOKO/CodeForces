@@ -11,7 +11,7 @@ int main(){
             cin>>arr[i];
         }
         int gc=0;
-        for (int i=1;i<=n;i++){
+        for (int i=1;i<=n;i++){ 
             gc=gcd(gc,abs(arr[i]-i));
         }
         cout<<gc<<endl;
