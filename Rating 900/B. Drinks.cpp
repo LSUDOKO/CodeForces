@@ -9,6 +9,5 @@ int main(){
         cin>>arr[i];
         count+=arr[i];
     }
-    cout<<count/n;
-
+    cout<<(double)count/n;
 }
