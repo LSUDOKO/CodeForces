@@ -42,11 +42,11 @@ int main() {
             n %= 5;
         } 
         else {
-            count += n;   // only 1-dollar bills remain
+            count += n;   
             n = 0;
         }
     }
 
-    cout << count << "\n";
+    cout << count << endl;
     return 0;
 }
