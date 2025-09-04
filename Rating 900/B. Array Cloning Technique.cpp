@@ -24,11 +24,11 @@ int main() {
         int curr = countmaxi;
 
         while (curr < n) {
-            operations++;                 // one copy operation
+            operations++;
             int can_fill = min(curr, n - curr);
-            curr += can_fill;             // fill new elements
+            curr += can_fill;
         }
 
-        cout << operations + (n - countmaxi) << "\n";
+        cout << operations + (n - countmaxi) << endl;
     }
 }
