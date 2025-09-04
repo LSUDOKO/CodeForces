@@ -48,7 +48,7 @@ int main() {
     for (int i = 0; i < n; i++) cin >> arr[i];
 
     int l = 0, r = n - 1;
-    int turn = 0; // 0 for Sereja, 1 for Dima
+    int turn = 0; 
     int sereja = 0, dima = 0;
 
     while (l <= r) {
