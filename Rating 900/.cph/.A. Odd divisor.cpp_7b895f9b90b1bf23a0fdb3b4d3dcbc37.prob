@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/arpit/Downloads/CodeForces/Rating 900/A. Odd divisor.cpp","tests":[{"id":1757360701363,"input":"6\n2\n3\n4\n5\n998244353\n1099511627776\n","output":"NO\nYES\nNO\nYES\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/arpit/Downloads/CodeForces/Rating 900/A. Odd divisor.cpp","group":"local","local":true}

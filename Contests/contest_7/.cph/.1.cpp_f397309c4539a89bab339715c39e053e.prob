@@ -1,0 +1,1 @@
+{"name":"Local: 1","url":"/home/arpit/Downloads/CodeForces/Contests/contest_7/1.cpp","tests":[{"id":1757349458626,"input":"3\n1 2\n10 3\n1000 1000\n","output":"1\n2\n0\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/arpit/Downloads/CodeForces/Contests/contest_7/1.cpp","group":"local","local":true}
