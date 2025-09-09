@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"/home/arpit/Downloads/CodeForces/Rating 1000/B. Exchange and removal.cpp","tests":[{"id":1757428347524,"input":"4\n0\n011\n0101110001\n111100\n","output":"1\n1\n0\n4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/arpit/Downloads/CodeForces/Rating 1000/B. Exchange and removal.cpp","group":"local","local":true}
