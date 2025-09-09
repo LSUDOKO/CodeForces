@@ -26,6 +26,6 @@ int main() {
             sort(v.begin(), v.end());
             ans = min(d4, v[0] + v[1]);
         }
-        cout << ans << "\n";
+        cout << ans << endl;
     }
 }
