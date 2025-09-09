@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"/home/arpit/Downloads/CodeForces/Rating 900/B. 01-game.cpp","tests":[{"id":1757409492940,"input":"3\n01\n1111\n0011\n","output":"DA\nNET\nNET\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/arpit/Downloads/CodeForces/Rating 900/B. 01-game.cpp","group":"local","local":true}
