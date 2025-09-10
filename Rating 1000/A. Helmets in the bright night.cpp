@@ -31,7 +31,7 @@ int main() {
 
         cost += remaining * 1LL * p;
 
-        cout << cost << "\n";
+        cout << cost << endl;
     }
     return 0;
 }
