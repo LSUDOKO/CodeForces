@@ -26,9 +26,9 @@ int main() {
         if (oddCount == 0) {
             cout << 0 << "\n";               // mower never turns on
         } else if (oddCount % 2 == 1) {
-            cout << total << "\n";           // all fields can be cut
+            cout << total <<endl;           // all fields can be cut
         } else {
-            cout << total - minOdd << "\n";  // skip smallest odd field
+            cout << total - minOdd <<endl;  // skip smallest odd field
         }
     }
     return 0;

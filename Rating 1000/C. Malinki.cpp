@@ -2,8 +2,6 @@
 using namespace std;
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
 
     int t; cin >> t;
     while (t--) {
@@ -16,7 +14,7 @@ int main() {
         if (k == 2 || k == 3 || k == 5) {
             for (int x : a) ans = min(ans, (k - x % k) % k);
         } 
-        else { // k == 4
+        else { 
             int d4 = 1e9;
             vector<int> v;
             for (int x : a) {

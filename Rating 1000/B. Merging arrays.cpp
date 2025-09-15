@@ -73,7 +73,7 @@ int main() {
             }
         }
 
-        int ans = 0;
+        int ans = 0;    
         for (int x : a) {
             ans = max(ans, streakA[x] + streakB[x]);
         }
@@ -83,5 +83,4 @@ int main() {
 
         cout << ans <<endl;
     }
-    return 0;
 }
