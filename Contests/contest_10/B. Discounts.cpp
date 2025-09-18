@@ -29,7 +29,7 @@ int main() {
                 lst = cand;
             }
         }
-        cout << total - saved << '\n';
+        cout << total - saved << endl;
     }
     return 0;
 }

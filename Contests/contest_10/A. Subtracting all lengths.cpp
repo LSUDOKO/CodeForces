@@ -1,12 +1,14 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-void solve() {
+void solve()
+{
     int n;
     cin >> n;
     vector<int> p(n);
-    vector<int> pos(n + 1); 
-    for (int i = 0; i < n; ++i) {
+    vector<int> pos(n + 1);
+    for (int i = 0; i < n; ++i)
+    {
         cin >> p[i];
         pos[p[i]] = i;
     }
@@ -16,40 +18,50 @@ void solve() {
 
     bool possible = true;
 
-    
-    for (int k = n - 1; k >= 1; --k) {
+    for (int k = n - 1; k >= 1; --k)
+    {
         int current_val_pos = pos[k];
 
-       
-        if (current_val_pos == left_bound - 1) {
+        if (current_val_pos == left_bound - 1)
+        {
             left_bound--;
-        } else if (current_val_pos == right_bound + 1) {
+        }
+        else if (current_val_pos == right_bound + 1)
+        {
             right_bound++;
-        } else {
+        }
+        else
+        {
 
-            possible = false;   
+            possible = false;
             break;
         }
 
-        if (right_bound - left_bound + 1 != (n - k + 1)) {
+        if (right_bound - left_bound + 1 != (n - k + 1))
+        {
             possible = false;
             break;
         }
     }
 
-    if (possible) {
+    if (possible)
+    {
         cout << "YES" << endl;
-    } else {
+    }
+    else
+    {
         cout << "NO" << endl;
     }
 }
 
-int main() {
+int main()
+{
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     int t;
     cin >> t;
-    while (t--) {
+    while (t--)
+    {
         solve();
     }
     return 0;
