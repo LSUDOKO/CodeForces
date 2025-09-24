@@ -14,23 +14,21 @@ int main() {
         string s;
         cin >> s;
         
-        vector<int> green; // Store indices of 'g'
+        vector<int> green; 
         for (int i = 0; i < n; i++) {
             if (s[i] == 'g') {
                 green.push_back(i);
             }
         }
-        
-        // Problem guarantees at least one 'g', so green is not empty
         int maxi = 0;
         for (int i = 0; i < n; i++) {
             if (s[i] == c) {
                 auto it = lower_bound(green.begin(), green.end(), i);
                 int dist;
                 if (it != green.end()) {
-                    dist = *it - i; // Distance to next 'g'
+                    dist = *it - i; 
                 } else {
-                    dist = n - i + green[0]; // Circular distance to first 'g'
+                    dist = n - i + green[0]; 
                 }
                 maxi = max(maxi, dist);
             }
