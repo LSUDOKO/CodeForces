@@ -6,3 +6,5 @@
 
 #Ignore windsurf AI rules
 .windsurfrules
+.codacy
+.windsurf
