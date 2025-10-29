@@ -2,11 +2,9 @@
 using namespace std;
 
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(0);
     int t;
     cin >> t;
-    for (int test = 0; test < t; test++) {
+    while(t--){
         int n;
         cin >> n;
         vector<long long> a(n + 1);
@@ -31,6 +29,6 @@ int main() {
             long long bk = min(a[k], target);
             ans += a[k] - bk;
         }
-        cout << ans << '\n';
+        cout << ans << endl;
     }
 }
