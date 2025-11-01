@@ -18,14 +18,16 @@ int main() {
         long long s=0,p=0,b=0;
         for (int i = 0; i < n; i++) {
             long long lb=s/x;
-            S += a[i];
+            s+= a[i];
             long long la=s/x;
-            if (loyalty_after > loyalty_before)
-                bonus += a[i];
+            if (la>lb)
+                b+=a[i];
         }
-
-        cout << bonus << endl;
-        for (auto i : a) cout << i << " ";
-        cout << endl;
+        cout<<b<<endl;
+        
+        for (int i=0;i<a.size();i++){
+            cout<<a[i]<<" ";
+        }
+        cout<<endl;
     }
 }

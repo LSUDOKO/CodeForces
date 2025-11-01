@@ -30,16 +30,31 @@ int main(){
                     count++;
                 }
             }
+            else if (a==b){
+                if (x<=y){
+                    while(k>=a){
+                        k=k-x;
+                        count++;
+                    }
+                }
+                else{
+                    while(k>=b){
+                        k=k-y;
+                        count++;
+                    }
+                }
+            }
             else{
-                while(k<=b){
+                while(k>=b){
                     k=k-y;
                     count++;
                 }
-                while(k<=a){
+                while(k>=a){
                     k=k-x;
                     count++;
                 }
             }
         }
+        cout<<count<<endl;
     }
 }

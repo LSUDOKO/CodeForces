@@ -7,24 +7,15 @@ int main() {
     while (t--) {
         int n, k;
         cin >> n >> k;
-        int count = 0;
         vector<char> ans(n);
-        for (int i = 0; i < n; i++){
-
-        cin >> ans[i];}
-
         for (int i = 0; i < n; i++) {
-            if (ans[i]=='G') {
-                bool found = false;
-                for (int j = i + 1; j <= i + k && j < n; j++) {  
-                    if (ans[j] == 'G') {
-                        found = true;
-                        i = j - 1;  
-                        break;
-                    }
-                }
-                if (!found) {
-                    count++; }
+            cin >> ans[i];}
+
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (ans[i] == 'G') {
+                count++;
+                i += k - 1;
             }
         }
 
@@ -36,10 +27,11 @@ int main() {
             }
         }
 
-        if (!check){
+        if (!check) {
             cout << 0 << endl;
-        } 
+        }
         else {
-            cout << count << endl;}
+            cout << count << endl;
+        }
     }
 }

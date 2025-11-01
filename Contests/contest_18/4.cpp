@@ -12,16 +12,15 @@ int main() {
         cout << g[0] <<endl;
     }
     else{
-        long long prev2 = g[0];
-        long long prev1 = max(g[0], g[1]);
-        long long curr = prev1;
+        long long back = g[0];
+        long long my = max(g[0], g[1]);
+        long long curr = my;
 
         for (int i = 2; i < n; i++) {
-            curr = max(prev1, prev2 + g[i]);
-            prev2 = prev1;
-            prev1 = curr;
+            curr = max(my, back + g[i]);
+            back = my;
+            my = curr;
         }
-
         cout<<curr<<endl;
     }
     
