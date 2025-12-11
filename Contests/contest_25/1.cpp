@@ -6,7 +6,11 @@ int main(){
     while(t--){
         int n;
         cin>>n;
-        vector<int>ans(n);
-        
+        if (n%2==1){
+            cout<<0<<endl;
+        }
+        else{
+            cout<<(n/4)+1<<endl;
+        }
     }
 }
