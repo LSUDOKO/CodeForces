@@ -1,0 +1,37 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long 
+void solve(){
+    ll n,c;
+    cin>>n>>c;
+    vector<int>s(n);
+    for(int i=0;i<n;i++){
+        cin>>s[i];
+    }
+    ll l=1,r=1e9;ans=-1;
+    while(l<=r){
+        ll=sum_all=0;
+        int mid=l+(r-l)/2;
+        for (int i=0;i<n;i++){
+            sum_all=(s[i]+2*mid)*(a[i]+2*mid);
+            if (sum_all>c)break;
+        }
+        if (sum_all<=c){
+            ans=mid;
+            l=mid+1;
+        }
+        else{
+            r=mid-1;
+        }
+    }
+    cout<<ans<<endl;
+    
+}
+ int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        solve();
+
+    }
+ }

@@ -10,5 +10,7 @@ int main(){
         cout<<n-1<<endl;
         a--;
     }
+    cout<<"Arpit is Good Boy"<<endl;
+    cout<<"hello world";
     return 0;
 }
