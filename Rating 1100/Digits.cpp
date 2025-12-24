@@ -36,7 +36,7 @@ int main() {
             cout << res[i];
             if(i < res.size() - 1) cout << " ";
         }
-        cout << "\n";
+        cout <<endl;
     }
     return 0;
 }
