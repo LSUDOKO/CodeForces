@@ -22,7 +22,7 @@ int main(){
             return 0;
         }
     }
-    cout<<"Poor Alex"<<endl;
+    cout<<"Poor Alex"<<endl;}
     //
     //2nd method
     #include <bits/stdc++.h>
@@ -54,4 +54,3 @@ int main() {
 }
     
 
-}
