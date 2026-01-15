@@ -13,8 +13,6 @@ int main() {
             cin >> a[i][j];
         }
     }
-
-    // 1️⃣ Sieve of Eratosthenes
     vector<bool> isPrime(MAXP + 1, true);
     isPrime[0] = isPrime[1] = false;
     for (int i = 2; i * i <= MAXP; i++) {
@@ -46,7 +44,6 @@ int main() {
         ans = min(ans, sum);
     }
 
-    // Columns
     for (int j = 0; j < m; j++) {
         int sum = 0;
         for (int i = 0; i < n; i++) {
