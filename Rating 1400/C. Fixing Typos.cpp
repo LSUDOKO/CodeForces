@@ -26,11 +26,9 @@ int main() {
     for (char c : s) {
         int n = t.size();
 
-        // Rule 1: avoid aaa
         if (n >= 2 && t[n-1] == c && t[n-2] == c)
             continue;
 
-        // Rule 2: avoid aabb
         if (n >= 3 && t[n-1] == c && t[n-2] == t[n-3])
             continue;
 
