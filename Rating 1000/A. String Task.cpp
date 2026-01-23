@@ -6,25 +6,15 @@ int main(){
     string ans="";
     string ans2="";
     for (char c: s){
-        if (c=='a' || c=='e' || c=='i' || c=='o'|| c=='u' || c=='A' || c=='E' || c=='I' || c=='O' || c=='U'){
+        char lower_c=(char)tolower((unsigned char)c);
+        if (lower_c=='a' || lower_c=='e' || lower_c=='i' || lower_c=='o'|| lower_c=='u' || lower_c=='y'){
             continue;
         }
         else{
-            ans+=c;
+            ans+='.';
+            ans+=lower_c;
         }
+
     }
-    for (char c: ans){
-        if (isupper(c)){
-            continue;
-        }
-        else{
-            ans2+=c;
-        }
-    }
-    for (int i=0;i<ans2.size();i++){
-        // if (!(i==ans2.size()-1)){
-        //     cout<<".";
-        // }
-        cout<<"."<<ans2[i];
-    }
+    cout<<ans<<endl;
 }
