@@ -14,7 +14,6 @@ int main(){
         if (x%2!=y%2){
             flip=true;
         }
-        
     }
     if (sumx%2==0 && sumy%2==0){
         cout<<0<<endl;
