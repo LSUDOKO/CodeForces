@@ -15,14 +15,18 @@ int main(){
     }
     sort(ans.begin(),ans.end());
     int i=0;
-    
-    while(i<n){
-        if (nums[i]*2<ans[n-1]){
+    int j=n/2;
+    int hide=0;
+    while(i<n/2 && j<n){
+        if (2*ans[i]<=ans[j]){
+            hide++;
             i++;
+            j++;
         }
-        else {
-            break;
+        else{
+            j++;
         }
+
     }
-    cout<<n-1-i;
+    cout<<n-hide;
 }
